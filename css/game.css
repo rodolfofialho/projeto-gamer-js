@@ -1,5 +1,24 @@
-body{
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
     background-color: #333;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    width: 100%;
+    font-size: 1.2em;
+    margin:  0 0 10px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .grid {
@@ -8,12 +27,12 @@ body{
     gap: 15px;
     width: 100%;
     max-width: 800px;
-    margin: 100px auto;
+    margin: 10px auto;
 }
 
 .card {
     aspect-ratio: 3/4;
-    background-color: ;
+    background-color: #ccc;
     width: 100%;
     border-radius: 5px;
     position: relative;
